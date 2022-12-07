@@ -1,0 +1,1020 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 10.8%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: radial-gradient(
+    72.16% 72.16% at 50% 50%,
+    rgba(252, 252, 252, 0) 0%,
+    #fcfcfc 71.43%
+  );
+}
+
+#main-header {
+  height: auto;
+  width: 100vw;
+}
+
+#btn-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 152px;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+#email-btn svg,
+#linkedin-btn svg {
+  width: 130px;
+  height: 40px;
+}
+
+#download-btn svg {
+  margin-left: 20px;
+  width: 150px;
+  transform: scale(1.2, 1.2);
+}
+
+#main {
+  width: auto;
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 100%;
+}
+
+#name {
+  width: 319px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #2e2e32;
+}
+
+#name-span {
+  width: auto;
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  padding: 0;
+  color: #0e0412;
+}
+
+#name-box {
+  margin-top: 10px;
+}
+
+#profession {
+  width: auto;
+  height: 27px;
+  margin-top: 10px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #18181c;
+}
+
+#tools {
+  margin-top: 50.6px;
+  display: flex;
+  align-items: center;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+#tools-hd {
+  display: flex;
+  align-items: center;
+}
+
+#tools span {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 22px;
+}
+
+#tool-stacks {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+}
+.tool-header span {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+#tool-stack {
+  margin-bottom: 20px;
+}
+
+#tool-stack p {
+  margin-top: 10px;
+  width: 355px;
+  margin-left: 34px;
+  height: 38px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #18181c;
+}
+
+#education {
+  margin-top: 30px;
+  page-break-before: auto;
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+#edu-header,
+#edu-flex {
+  display: flex;
+  align-items: center;
+}
+
+#education span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-left: 10px;
+  text-align: left;
+}
+
+#education div {
+  margin-top: 20px;
+}
+
+#education p {
+  margin-top: 6px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#experience {
+  margin-top: 30px;
+  page-break-before: auto;
+  page-break-inside: avoid;
+  page-break-after: auto;
+  width: 90%;
+}
+
+#experience ul {
+  margin-bottom: 20px;
+  list-style: none;
+  margin-left: 25px;
+  padding-right: 50px;
+}
+
+#exp-hd-flex {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+#experience span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 3px;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.date {
+  height: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #18181c;
+  margin-left: 2%;
+}
+
+#experience div {
+  margin-top: 20.5px;
+}
+
+.detail-flex {
+  display: list-item;
+  margin-top: 6px;
+}
+
+.exp-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.exp-header-div {
+  display: flex;
+  align-items: flex-start;
+}
+
+#experience p {
+  display: inline-block;
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+#projects {
+  margin-top: 30px;
+  padding: 0;
+  page-break-before: auto;
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+#projects-hd {
+  display: flex;
+  align-items: center;
+}
+
+#projects-hd span {
+  margin-left: 11px;
+  color: #010101;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#projects ul li span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: left;
+  color: #18181c;
+}
+
+.proj-det-flex {
+  margin-top: 20px;
+  display: flex;
+  align-content: center;
+  padding-right: 0;
+}
+
+.proj-flex-div {
+  display: flex;
+  align-content: flex-start;
+}
+
+.proj-flex-div p {
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.proj-flex-div svg {
+  margin-left: -3px;
+}
+
+.proj-det-flex p {
+  margin-left: 11px;
+}
+
+.proj-flex-div p span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-left: 10px;
+  text-align: left;
+  color: #2e2e32;
+}
+
+#projects button {
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  background: inherit;
+  margin-top: 20px;
+  margin-left: 32px;
+}
+
+#projects ul {
+  list-style: none;
+  margin-left: 29px;
+  padding-left: 0;
+}
+
+#projects ul li {
+  margin-top: 10px;
+  font-size: 14px;
+  width: 98%;
+  font-family: "Urbanist", sans-serif;
+}
+
+#projects ul li span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-left: 5px;
+  text-align: left;
+}
+
+#certifications {
+  margin-top: 30px;
+  page-break-before: auto;
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+#certs-hd span {
+  color: #010101;
+}
+
+#certifications ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 2px;
+}
+
+#certifications ul li {
+  display: list-item;
+}
+
+#certs-hd {
+  display: flex;
+  align-items: center;
+}
+
+#certifications span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.cert-flex {
+  margin-top: 20px;
+  display: flex;
+  align-content: center;
+}
+
+.cert-flex-div {
+  display: flex;
+  align-content: flex-start;
+  width: 120%;
+}
+
+.cert-flex-div p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 13px;
+  width: 100%;
+  height: 20px;
+}
+
+.cert-flex p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#certifications ul {
+  margin-left: 7px;
+}
+
+.cert-det-flex {
+  margin-left: 20px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+
+.cert-det-flex svg {
+  margin-top: 0;
+  width: 25px;
+}
+
+.cert-det-flex p {
+  margin-left: 9px;
+  width: auto;
+  font-family: "Urbanist", sans-serif;
+}
+
+.cert-det-flex p a {
+  text-decoration: underline;
+
+  color: #000;
+}
+
+#comm-services {
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  page-break-before: auto;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+#comm-hd {
+  display: flex;
+  align-items: center;
+}
+
+#comm-services span {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.comm-header {
+  margin-top: 25.43px;
+  margin-left: -2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 82%;
+}
+
+.comm-header-flex {
+  display: flex;
+  align-content: center;
+  width: auto;
+}
+
+.comm-det-flex {
+  margin-left: 22px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+
+.comm-det-flex svg {
+  margin-top: 0px;
+  width: 25px;
+}
+
+.comm-det-flex p {
+  margin-left: 10px;
+  font-family: "Urbanist", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: -15px;
+  }
+
+  #main-header {
+    height: auto;
+    width: auto;
+  }
+
+  #main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  #btn-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 152px;
+    padding-left: 2%;
+    width: 100%;
+    margin-left: 12px;
+  }
+
+  #email-btn svg p,
+  #linkedin-btn svg p,
+  #download-btn svg p {
+    margin: 0;
+    width: 30%;
+    height: 40px;
+  }
+
+  .btn-span {
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #name-box {
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+
+  #name-box svg {
+    width: 90%;
+    height: 10%;
+  }
+
+  #profession {
+    height: 27px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #18181c;
+    margin-left: 20px;
+  }
+
+  #tools {
+    margin-top: 50.6px;
+    overflow: visible;
+    margin-left: 0;
+    width: 100%;
+  }
+  #tools-hd {
+    margin-left: 20px;
+  }
+  #tools span {
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  #tool-stacks {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .tool-header {
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+
+  .tool-header span {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+
+  #tool-stack {
+    margin-bottom: 10px;
+    height: auto;
+    padding: 0;
+    margin-left: 18px;
+  }
+
+  .para-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #tool-stack p {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    font-family: "Urbanist", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #18181c;
+    margin-left: 0;
+    padding-left: 34px;
+    margin-bottom: 10px;
+  }
+
+  #education {
+    margin-top: 30px;
+    margin-left: 19px;
+  }
+
+  #education span {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #education div {
+    margin-top: 20px;
+  }
+
+  #education p {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  #experience {
+    margin-top: 30px;
+    page-break-before: always;
+    page-break-inside: auto;
+    page-break-after: always;
+    margin-left: 19px;
+    width: 95%;
+  }
+
+  #niger-elec {
+    page-break-before: auto;
+  }
+  #goldman {
+    page-break-before: always;
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+  #the-purple {
+    page-break-before: auto;
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+
+  #exp-hd-flex {
+    margin-left: 1px;
+  }
+
+  #experience span {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-top: -1px;
+    margin-left: 5px;
+    text-align: left;
+  }
+
+  .date {
+    height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #18181c;
+    padding-left: 20px;
+  }
+
+  #experience div {
+    margin-top: 20.5px;
+  }
+  #experience ul {
+    margin-top: 10px;
+    list-style: none;
+    width: 100%;
+  }
+
+  .detail-flex {
+    display: list-item;
+    margin-top: 10px;
+    height: auto;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .detail-flex svg {
+    margin-top: 1px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .exp-header {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+  }
+
+  #experience p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 5px;
+    width: 100%;
+  }
+
+  #projects {
+    margin-top: 64.34px;
+    margin-left: 19px;
+    page-break-before: avoid;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+  }
+
+  a {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2e2e32;
+  }
+
+  #projects ul li svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  #projects span {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-left: 10px;
+    text-align: left;
+    color: #010101;
+  }
+
+  .proj-flex-div {
+    width: 105%;
+    margin-left: -3px;
+  }
+
+  .proj-flex-div p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 11px;
+  }
+
+  #projects ul li {
+    font-size: 14px;
+  }
+
+  .proj-det-flex {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .proj-flex-div svg {
+    width: 80px;
+    height: 40px;
+    margin-top: -7px;
+  }
+
+  .proj-details {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #projects button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    background: inherit;
+    margin-top: 20px;
+    margin-left: 31px;
+  }
+
+  #projects ul {
+    list-style: none;
+    width: 99%;
+    margin-left: 17px;
+  }
+
+  #projects ul li {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 85%;
+    margin-left: 15px;
+  }
+
+  #projects ul li span {
+    margin-left: 0;
+  }
+
+  #projects ul li .tool-abbrev {
+    margin-left: 5px;
+  }
+
+  #certifications {
+    margin-top: 60px auto 19px auto;
+    page-break-before: auto;
+    width: 95%;
+    margin-left: 19px;
+  }
+
+  #certifications ul {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  #certifications ul:last-child {
+    margin-top: 13%;
+  }
+
+  #certs-hd {
+    display: flex;
+    align-items: center;
+    page-break-before: avoid;
+  }
+
+  #certifications span {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  .cert-flex {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+  }
+
+  .cert-flex p {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .cert-det-flex {
+    margin-left: 0.5%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .cert-det-flex svg {
+    width: 15px;
+    height: 15px;
+    margin-bottom: -14px;
+  }
+
+  .cert-det-flex p {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 9px;
+  }
+
+  .cert-det-flex p a {
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #000;
+  }
+
+  #comm-services {
+    margin-top: 64.53px;
+    page-break-before: always;
+    width: 95%;
+    margin-left: 19px;
+  }
+
+  #comm-services ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 15px;
+  }
+
+  #comm-services ul li {
+    display: list-item;
+  }
+
+  .comm-header {
+    margin-top: 25.43px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 9px;
+  }
+
+  .comm-header-flex {
+    padding-left: 0;
+  }
+
+  .comm-date {
+    margin-left: 16px;
+    text-align: center;
+  }
+
+  .comm-det-flex {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 5.5%;
+  }
+  .comm-det-flex svg {
+    margin-bottom: -15px;
+    width: 15px;
+    height: 15px;
+  }
+  .comm-det-flex p {
+    margin-left: 2%;
+    height: auto;
+    font-size: 14px;
+    width: 98%;
+  }
+}
+@media screen and (min-width: 480px) {
+  #name {
+    width: auto;
+    font-size: 36px;
+  }
+
+  #name-span {
+    width: auto;
+    font-size: 36px;
+  }
+}
